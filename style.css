@@ -32,6 +32,6 @@ body {
  	padding: 0 13px;
  	border: dashed 1px red;
 }
-.menu__item:list-child {
+.menu__item: last-child {
  	padding-right: 0;
 }
