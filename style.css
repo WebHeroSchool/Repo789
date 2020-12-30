@@ -15,17 +15,22 @@ body {
  	border: dashed 1px red;
 }
 .logo {
- 	margin-right: 63%;
+ 	margin-right: 0%;
 }
 .header {
+	padding: 40px 0;
 	display: flex;
  	justify-content: space-between;
 }
 .logo {
-	padding: 40px 0;
+	//font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+	width: 190px;
+ 	height: 35px;
+ 	border: dashed 1px red;
+ 	background: url('img/logo.svg');
 }
 .menu {
- 	display: flex;
+ 	display  flex;
  	align-items: center;
 }
 .menu__item {
@@ -35,3 +40,4 @@ body {
 .menu__item: last-child {
  	padding-right: 0;
 }
+
