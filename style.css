@@ -20,11 +20,11 @@ body {
  	justify-content: space-between;
 }
 .logo {
-	font-family: "pt_serif",arial,helvetica,sans-serif 
-	font-weight: bold;
- 	font-size: 24px;
- 	line-height: 31px;
- }
+	// font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
+	width: 190px;
+ 	height: 35px;
+	background: url('img/logo.svg');
+}
 .menu {
  	display  flex;
  	align-items: center;
