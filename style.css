@@ -1,3 +1,64 @@
 h1 {
     font-family: Roboto;
 }
+body {
+ margin: 0;
+}
+.wrapper {
+ 	margin: auto;
+ 	width: 80%;
+}
+.logo, .menu {
+	display: inline-block;
+}
+.logo {
+ 	margin-right: 0%;
+}
+.header {
+	padding: 40px 0;
+	display: flex;
+ 	justify-content: space-between;
+}
+.logo {
+	/* */ font: 24px/31px 'pt_serifbold', arial, helvetica, sans-serif; 
+	width: 190px;
+ 	height: 35px;
+	background: url('img/logo.svg');
+}
+.menu {
+ 	display: flex;
+ 	align-items: center;
+}
+.menu__item {
+	position: relative;
+	margin-right: 26px;
+	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+	transition: opacity .5s;
+
+}
+.menu__item:after {
+	position: absolute;
+	left: 0;
+	display: block;
+	content: '';
+	width: 0;
+	height: 3px;
+	background: #0056EC;
+	opacity: 0;
+	transition: opacity .5s, width .5s;
+}
+.menu__item:hover {
+	opacity: 0.5;
+}
+.menu__item:hover:after, .menu__item_active:after {
+	opacity: 1;	
+	width: 100%;
+
+ }	   
+.menu__item:last-child {
+	 margin-right: 0;
+
+}
+
