@@ -81,10 +81,9 @@ body {
 	font: 18px/21px "Roboto", arial, helvetica, sans-serif;
    
 }
-.main_button {
+.main__button {
 	display: inline-block;
 	font:14px/16px "Roboto",arial,helvetica,sans-serif; 
-	font: 14px/16px Roboto, arial, helvetica, sans-serif;
 	color: #fff;	
 	background: #0056EC;	
 	padding: 14px 16px;	
