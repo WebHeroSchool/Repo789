@@ -64,8 +64,7 @@ body {
 	 margin-right: 0;
  
 }   
-.main{
-	padding-top: 100px;    
+.main{    
 	background: url(img/mainimg.svg);
 	padding-right: 63%;
 	background-repeat: no-repeat;
@@ -95,5 +94,5 @@ body {
 	opacity: .5;
    }
 .main__title-text_highlight {
-	background: #ecfbff;
+	background: #125068;
    }
