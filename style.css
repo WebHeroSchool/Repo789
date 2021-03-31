@@ -3,11 +3,10 @@ h1 {
 	font-family: "PT Serif";
 }
 body {
- margin: 0;
 }
 .wrapper {
  	margin: auto;
- 	width: 80%;
+ 	width: 79%;
 }
 .logo, .menu {
 	display: inline-block;
@@ -18,14 +17,14 @@ body {
 .header {
 	padding: 40px 0;
 	display: flex;
- 	justify-content: space-between;
-	margin-bottom: 100px;
-
+	justify-content: space-between;
+	margin-bottom: 8%;
 }
 .logo {
-	/* */ font: 24px/31px 'pt_serifbold', arial, helvetica, sans-serif; 
-	width: 190px;
- 	height: 35px;
+	/* */
+	font: 23px/31px 'pt_serifbold', arial, helvetica, sans-serif;
+	width: 180px;
+	height: 30px;
 	background: url('img/logo.svg');
 }
 .menu {
@@ -35,7 +34,7 @@ body {
 .menu__item {
 	position: relative;
 	margin-right: 26px;
-	font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 	color: #000;
 	text-decoration: none;
 	transition: opacity .5s;
@@ -48,7 +47,7 @@ body {
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #0056EC;
+	background: #1bc7c7c4;
 	opacity: 0;
 	transition: opacity .5s, width .5s;
 }
@@ -64,28 +63,28 @@ body {
 	 margin-right: 0;
  
 }   
-.main{    
+.main{
 	background: url(img/mainimg.svg);
-	padding-right: 63%;
+	padding-right: 65%;
 	background-repeat: no-repeat;
 	background-position: top right;
-   
+	padding-top: 13%;
+	background-size: contain;
 }
 .main__title {
-	margin: 0 0 40px 0;   
-	font: bold 50px/65px "PT Serif", arial, helvetica, sans-serif;
-   }
+	margin: 0 0 40px 0;
+	font: bold 66px/87px "PT Serif", arial, helvetica, sans-serif;
+	}
 .main__subtitle {
-   	margin: 0 0 41px 0;
-	font: 18px/21px "Roboto", arial, helvetica, sans-serif;
-   
+   	margin: 0px 0 41px 0;
+   	font: 22px/26px "Roboto", arial, helvetica, sans-serif;
 }
 .main__button {
 	display: inline-block;
-	font:14px/16px "Roboto",arial,helvetica,sans-serif; 
-	color: #fff;	
-	background: #0056EC;	
-	padding: 14px 16px;	
+	font: 18px/21px "Roboto",arial,helvetica,sans-serif;
+	color: #fff;
+	background: #0056EC;
+	padding: 14px 28px;
 	text-decoration: none;
 	border-radius: 4px;
 	transition: opacity .5s;
@@ -94,5 +93,5 @@ body {
 	opacity: .5;
    }
 .main__title-text_highlight {
-	background: #125068;
+	background: #68c2e6;
    }
