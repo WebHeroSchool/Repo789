@@ -14,7 +14,7 @@ body {
 .logo {
 }
 .header {
-	padding: 32px 0px;
+	padding: 31px 0px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 1%;
@@ -29,14 +29,15 @@ body {
 .menu {
  	display: flex;
  	align-items: center;
+ 	padding: 8px;
 }
 .menu__item {
 	position: relative;
-	margin-right: 26px;
-	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+	margin-left: 26px;
+	font: 500 18px/22px Roboto, arial, helvetica, sans-serif;
 	color: #000;
 	text-decoration: none;
-	transition: opacity .5s;
+	transition: opacity 0.5s;
 }
 .menu__item:after {
 	position: absolute;
@@ -58,39 +59,40 @@ body {
 
  }	   
 .menu__item:last-child {
-	 margin-right: 0;
- 
+	 margin-right: -3px;
 }   
 .main{
 	background: url(img/mainimg.svg);
-	padding-right: 66%;
+	padding-right: 65%;
 	background-repeat: no-repeat;
 	background-position: 100% 120px;
 	padding-top: 13%;
-	background-size: 774px 656px;
-	padding-bottom: 180px;
+	background-size: 768px 657px;
+	padding-bottom: 197px;
 }
 .main__title {
-	margin: 0 0 38px 0;
+	margin: 0px 0px 38px 0px;
 	font: bold 65px/86px "PT Serif", arial, helvetica, sans-serif;
+	padding-top: 0px;
 	}
 .main__subtitle {
-   	margin: 0px 0 42px 0;
+   	margin: -2px 0px 41px -5px;
    	font: 22px/26px "Roboto", arial, helvetica, sans-serif;
-   	padding-bottom: 8px;
-   	width: 458px;
+   	padding-bottom: 0px;
+   	width: 470px;
 }
 .main__button {
 	display: inline-block;
 	font: 18px/24px "Roboto",arial,helvetica,sans-serif;
 	color: #fff;
 	background: #0056EC;
-	padding: 18px 26px;
+	padding: 18px 32px;
 	text-decoration: none;
 	border-radius: 4px;
 	transition: opacity 4.5s;
 	width: 217px;
-	height: 21px;
+	height: 22px;
+	padding-left: 19px;
 }
 .main__button:hover {
 	opacity: .5;
