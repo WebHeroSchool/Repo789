@@ -21,9 +21,9 @@ body {
 }
 .logo {
 	/* */
-	font: 21px/31px 'pt_serifbold', arial, helvetica, sans-serif;
-	width: 180px;
-	height: 33px;
+	font: 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
+	width: 187px;
+	height: 34px;
 	background: url('img/logo.svg');
 }
 .menu {
@@ -76,7 +76,7 @@ body {
 	}
 .main__subtitle {
    	margin: -2px 0 34px -5px;
-   	font: 22px/26px "Roboto", arial, helvetica, sans-serif;
+   	font: 400 22px/26px "Roboto", arial, helvetica, sans-serif;
    	padding-bottom: 8px;
    	width: 459px;
 }
