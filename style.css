@@ -14,7 +14,7 @@ body {
 .logo {
 }
 .header {
-	padding: 31px 0px;
+	padding: 32px 0px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 1%;
@@ -29,15 +29,14 @@ body {
 .menu {
  	display: flex;
  	align-items: center;
- 	padding: 8px;
 }
 .menu__item {
 	position: relative;
-	margin-left: 26px;
-	font: 500 18px/22px Roboto, arial, helvetica, sans-serif;
+	margin-right: 27px;
+	font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 	color: #000;
 	text-decoration: none;
-	transition: opacity 0.5s;
+	transition: opacity .5s;
 }
 .menu__item:after {
 	position: absolute;
@@ -45,7 +44,7 @@ body {
 	display: block;
 	content: '';
 	width: 68px;
-	height: 3px;
+	height: 4px;
 	background: #1bc7c7c4;
 	opacity: 0;
 	transition: opacity .5s, width .5s;
@@ -59,44 +58,43 @@ body {
 
  }	   
 .menu__item:last-child {
-	 margin-right: -3px;
+	 margin-right: 2px;
 }   
 .main{
 	background: url(img/mainimg.svg);
-	padding-right: 65%;
+	padding-right: 66%;
 	background-repeat: no-repeat;
-	background-position: 100% 120px;
+	background-position: 100% 124px;
 	padding-top: 13%;
-	background-size: 768px 657px;
-	padding-bottom: 197px;
+	background-size: 769px 655px;
+	padding-bottom: 180px;
 }
 .main__title {
-	margin: 0px 0px 38px 0px;
+	margin: 0 0 38px 0;
 	font: bold 65px/86px "PT Serif", arial, helvetica, sans-serif;
-	padding-top: 0px;
 	}
 .main__subtitle {
-   	margin: -2px 0px 41px -5px;
+   	margin: -2px 0 34px -5px;
    	font: 22px/26px "Roboto", arial, helvetica, sans-serif;
-   	padding-bottom: 0px;
-   	width: 470px;
+   	padding-bottom: 8px;
+   	width: 459px;
 }
 .main__button {
 	display: inline-block;
 	font: 18px/24px "Roboto",arial,helvetica,sans-serif;
 	color: #fff;
 	background: #0056EC;
-	padding: 18px 32px;
+	padding: 18px 26px;
 	text-decoration: none;
 	border-radius: 4px;
 	transition: opacity 4.5s;
-	width: 217px;
-	height: 22px;
+	width: 223px;
+	height: 21px;
 	padding-left: 19px;
 }
 .main__button:hover {
 	opacity: .5;
    }
 .main__title-text_highlight {
-	background: #a9dbef;
+	background:#ecf3ff;
 	}
