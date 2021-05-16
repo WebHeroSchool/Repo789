@@ -1,17 +1,10 @@
-h1 {
-    font-family: "Roboto";
-	font-family: "PT Serif";
-}
+
 body {
+	margin: 0;
 }
 .wrapper {
  	margin: auto;
  	width: 80%;
-}
-.logo, .menu {
-	display: inline-block;
-}
-.logo {
 }
 .header {
 	padding: 32px 0px;
@@ -19,9 +12,10 @@ body {
 	justify-content: space-between;
 	margin-bottom: 1%;
 }
+.logo, .menu {
+	display: inline-block;
+}
 .logo {
-	/* */
-	font: 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
 	width: 187px;
 	height: 34px;
 	background: url('img/logo.svg');
