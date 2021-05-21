@@ -85,7 +85,7 @@ body {
 	transition: opacity 4.5s;
 	width: 230px;
 	height: 26px;
-	padding-left: 18px;
+	padding-left: 19px;
 }
 .main__button:hover {
 	opacity: .5; 
